@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="service.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- this is our main head -->
+
+    <body>
+        <div class="container-fluid  main_img">
+            <div class="row">
+                <div class="col text-white " id="about">
+                    <h1>Services</h1>
+                    <div class="row">
+                        <div class="col spn">
+                            <p><span>Home</span><span>|</span> <span>Services</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- this is our bhartiya airways about -->
+        <div class="container ">
+            <div class="row">
+                <div class="col text-center mt-5" id="sec_head">
+                    <h5> OUR SERVICES</h5>
+                    <div class="row">
+                        <div class="col">
+                            <p class=" text-justify mt-3">Bhartiya Airways has expertise in tourism and travel booking,
+                                flight booking, and creating holiday packages according to our user's budgets. We are
+                                known for tourism services that give user satisfaction at very affordable pricing. We
+                                even provide services in
+                                the aviation sector, the training sector, and hotel management services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- this is our slider  -->
+        <div class="container-fluid slide_cont">
+            <h2 class="text-center text-white pt-4 ">Type Of Services</h2>
+            <div id="owl-demo" class="owl-carousel owl-theme">
+
+                <div class="item"><img src="Avition.jpg" alt="Owl Image">
+                    <h5 class="text-center">Avition Services</h5>
+                    <p>Our services in the aviation sector include ground staff, cabin crew, Airline ticketing agents,
+                        cargo
+                        handlers, etc.
+                        They are highly skilled professionals with proper work
+                        ethics and dedication to their job responsibilities.</p>
+                </div>
+                <div class="item"><img src="travel service.jpg" alt="Owl Image">
+                    <h5 class="text-center">Travel Services</h5>
+                    <p>It's a service dedicated to our users who wish to travel all over India at a price affordable to
+                        their budget.
+                        We offer tour and travel packages with discounts and the best offers to avail.</p>
+                </div>
+                <div class="item"><img src="hotel service.jpg" alt="Owl Image">
+                    <h5 class="text-center">Hotel Services</h5>
+                    <p>In Hotel Management, we are providing the services of waiters and room cleaning by our skilled
+                        staff.
+                        Who trained under the proper guidance of experts in handling any situation while dealing with
+                        customers.</p>
+                </div>
+                <div class="item"><img src="presnalty Sercive.jpg" alt="Owl Image">
+                    <h5 class="text-center">Personality Services</h5>
+                    <p>We also provide
+                        personality development services if someone wants to excel in their communication
+                        skills or improve the way of carrying themselves in the professional world.</p>
+                </div>
+                <!-- <div class="item"><img src="assets/owl5.jpg" alt="Owl Image"></div>
+            <div class="item"><img src="assets/owl6.jpg" alt="Owl Image"></div>
+            <div class="item"><img src="assets/owl7.jpg" alt="Owl Image"></div>
+            <div class="item"><img src="assets/owl8.jpg" alt="Owl Image"></div> -->
+
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function () {
+
+                $("#owl-demo").owlCarousel({
+
+                    autoPlay: 3000,
+                    autoplay: true, //Set AutoPlay to 3 seconds
+                    loop: true,
+                    itemsDesktop: [1199, 3],
+                    itemsDesktopSmall: [979, 3],
+                    margin: 20,
+                    responsiveClass: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 3
+
+                        },
+                    }
+                });
+
+            });
+        </script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
